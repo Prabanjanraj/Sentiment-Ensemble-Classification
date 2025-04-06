@@ -6,7 +6,7 @@ from sklearn.metrics import roc_curve, auc
 
 # Load model and vectorizer
 model = joblib.load("stacking_model.pkl")
-vectorizer = joblib.load("tfidf_vectorizer.pkl")
+vectorizer = joblib.load("vectorizer.pkl")
 
 st.set_page_config(page_title="Sentiment Classifier", layout="centered")
 
