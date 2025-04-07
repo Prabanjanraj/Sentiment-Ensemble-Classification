@@ -4,7 +4,7 @@ import joblib
 # Load model
 model = joblib.load("model.pkl")
 
-st.title("Sentiment Analysis App")
+st.title("Sentiment Analysis Appp")
 
 text_input = st.text_area("Enter a sentence to analyze sentiment")
 
